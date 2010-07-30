@@ -1,0 +1,25 @@
+--- 
+hash: 98e3f04ce842849d403216ba9f8053e997738c42
+sources: 
+- Path: 
+    path: !ruby/object:Pathname 
+      path: /Users/thunt/Work/Clients/Broker Exchange/vendor/gems/event_inventory
+- Rubygems: 
+    uri: http://gemcutter.org
+specs: 
+- activesupport: 
+    version: 3.0.0.rc
+- patron: 
+    version: 0.4.6
+- nokogiri: 
+    version: 1.4.2
+- sax-machine: 
+    version: 0.0.15
+- event_inventory: 
+    version: 0.0.1
+    source: 0
+dependencies: 
+  event_inventory: 
+    version: ">= 0"
+    group: 
+    - :default
