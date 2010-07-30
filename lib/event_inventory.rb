@@ -3,7 +3,7 @@ require 'patron'
 require 'sax-machine'
 
 module EventInventory
-  ROOT = 'http://services.preview.eventinventory.com/webservices/'.freeze
+  ROOT = 'http://services.eventinventory.com/webservices/'.freeze
   CATALOG = File.join(ROOT, 'ticketsearch.asmx').freeze
   EDIT_ORDER = File.join(ROOT, 'editorder.asmx').freeze
   VIEW_ORDER = File.join(ROOT, 'vieworder.asmx').freeze

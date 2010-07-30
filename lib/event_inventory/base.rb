@@ -70,8 +70,6 @@ module EventInventory
             raise ParameterError, "Missing #{$1}"
           when /There was an error parsing (\w+) parameter \[(\w+)=(.*?)\]/
             raise ParameterError, "Invalid #{$2} (#{$1}, \"#{$3}\")"
-          #when /\A(?!<\?xml)/
-          #  raise Error, body.split(/\./).first
           else
             @action.parser.parse(body) if body
         end
